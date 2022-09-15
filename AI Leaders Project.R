@@ -25,6 +25,8 @@ summary <- data %>% group_by(Gender, Zip.Code) %>% mutate(total_sales = sum(Pric
   # What are the key stakeholders in the business segments that may be impacted by AI driven changes?
   # How well positioned is the company to change policy/procedure if optimizations are identified?
     # Which process are flexible, and which are fully immutable?
+  # To what extent what index can be allowed to be changed? (Guardrail Metrics)
+
 
 
 
